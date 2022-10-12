@@ -33,7 +33,7 @@ public class Carpool {
         return allRoutes;
     }
 
-    public void setAllRoutes(ArrayList<Route> allRoutes) {
-        this.allRoutes = allRoutes;
+    public void addRoute(Route route){
+        allRoutes.add(route);
     }
 }
